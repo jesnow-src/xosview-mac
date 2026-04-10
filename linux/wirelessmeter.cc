@@ -50,7 +50,7 @@ void WirelessMeter::getpwrinfo( void ){
     return;
   }
 
-  char buff[16];
+  char buff[32];
   int linkq = 0, quality = 0;
   bool link = false;
 
