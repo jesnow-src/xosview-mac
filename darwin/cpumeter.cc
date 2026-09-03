@@ -82,7 +82,7 @@ bool CPUMeter::getcputime(void) {
   }
 
   if (previous_.size() != cpuCount) {
-    previous_.assign(cpuCount, TickSet{});
+    previous_.assign(cpuCount, TickSet());
     initialized_ = false;
   }
 
